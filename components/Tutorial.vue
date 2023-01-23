@@ -51,7 +51,7 @@
         </svg>
       </a>
       <div class="mt-8 bg-white overflow-hidden shadow sm:rounded-lg p-6">
-        
+        {{ message }}
       </div>
     </div>
   </div>
@@ -60,5 +60,6 @@
 <script>
 export default {
   name: 'NuxtTutorial',
+  message: 'Hello',
 }
 </script>
