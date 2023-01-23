@@ -1,5 +1,9 @@
 <template>
-  <Tutorial />
+  <!-- routing -->
+  <div>
+    <!-- <NuxtLogo /> -->
+    <Tutorial />
+  </div>
 </template>
 
 <script>
