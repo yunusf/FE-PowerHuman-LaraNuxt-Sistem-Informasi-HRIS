@@ -39,5 +39,6 @@
 <script>
 export default {
     layout: 'form',
+    middleware: 'auth', // untuk akses halaman ini harus login terlebih dahulu
 }
 </script>

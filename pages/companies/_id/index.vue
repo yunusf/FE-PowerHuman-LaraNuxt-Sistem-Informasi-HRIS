@@ -152,5 +152,6 @@
 <script>
 export default {
   layout: 'dashboard',
+  middleware: 'auth', // untuk akses halaman ini harus login terlebih dahulu
 }
 </script>

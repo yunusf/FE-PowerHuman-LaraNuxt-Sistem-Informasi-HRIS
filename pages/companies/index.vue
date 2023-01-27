@@ -17,7 +17,7 @@
 
 <script>
 export default {
-
+    middleware: 'auth', // untuk akses halaman ini harus login terlebih dahulu
 }
 </script>
 

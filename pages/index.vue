@@ -17,10 +17,11 @@
 
 <script>
 export default {
-    
+    middleware: 'auth', // untuk akses halaman ini harus login terlebih dahulu
 }
 </script>
 
+<!-- belajar -->
 <!-- <template>
     <section class="py-[200px] flex flex-col items-center justify-center px-4">
         <div class="text-[32px] font-semibold text-dark mb-4">Select Companies</div>
